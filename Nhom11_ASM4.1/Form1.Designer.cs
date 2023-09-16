@@ -42,9 +42,11 @@
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.DuongDanAnh = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -62,7 +64,7 @@
             this.viewToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1073, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -74,18 +76,21 @@
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
+            this.fileToolStripMenuItem.Click += new System.EventHandler(this.fileToolStripMenuItem_Click);
             // 
             // OpenToolStrip
             // 
             this.OpenToolStrip.Name = "OpenToolStrip";
             this.OpenToolStrip.Size = new System.Drawing.Size(180, 22);
             this.OpenToolStrip.Text = "Open     Ctrl+O";
+            this.OpenToolStrip.Click += new System.EventHandler(this.OpenToolStrip_Click);
             // 
             // ExitToolStrip
             // 
             this.ExitToolStrip.Name = "ExitToolStrip";
             this.ExitToolStrip.Size = new System.Drawing.Size(180, 22);
             this.ExitToolStrip.Text = "Exit";
+            this.ExitToolStrip.Click += new System.EventHandler(this.ExitToolStrip_Click);
             // 
             // viewToolStripMenuItem
             // 
@@ -102,33 +107,33 @@
             this.ScretchToolStrip,
             this.ActualSizeToolStript});
             this.imagesToolStripMenuItem.Name = "imagesToolStripMenuItem";
-            this.imagesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.imagesToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
             this.imagesToolStripMenuItem.Text = "Images";
             // 
             // ScaleToFitToolStrip
             // 
             this.ScaleToFitToolStrip.Name = "ScaleToFitToolStrip";
-            this.ScaleToFitToolStrip.Size = new System.Drawing.Size(180, 22);
+            this.ScaleToFitToolStrip.Size = new System.Drawing.Size(139, 22);
             this.ScaleToFitToolStrip.Text = "Scale to fit";
             this.ScaleToFitToolStrip.Click += new System.EventHandler(this.scaleToFitToolStripMenuItem_Click);
             // 
             // ScretchToolStrip
             // 
             this.ScretchToolStrip.Name = "ScretchToolStrip";
-            this.ScretchToolStrip.Size = new System.Drawing.Size(180, 22);
+            this.ScretchToolStrip.Size = new System.Drawing.Size(139, 22);
             this.ScretchToolStrip.Text = "Stretch to fit";
             // 
             // ActualSizeToolStript
             // 
             this.ActualSizeToolStript.Name = "ActualSizeToolStript";
-            this.ActualSizeToolStript.Size = new System.Drawing.Size(180, 22);
+            this.ActualSizeToolStript.Size = new System.Drawing.Size(139, 22);
             this.ActualSizeToolStript.Text = "Actual Size";
             // 
             // toolStrip1
             // 
             this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(800, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(1073, 25);
             this.toolStrip1.TabIndex = 2;
             this.toolStrip1.Text = "toolStrip1";
             this.toolStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.toolStrip1_ItemClicked);
@@ -140,7 +145,7 @@
             this.toolStripStatusLabel1});
             this.statusStrip1.Location = new System.Drawing.Point(0, 428);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(800, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(1073, 22);
             this.statusStrip1.TabIndex = 3;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -156,11 +161,22 @@
             this.toolStripStatusLabel1.Size = new System.Drawing.Size(63, 17);
             this.toolStripStatusLabel1.Text = "Resolution";
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Location = new System.Drawing.Point(118, 75);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(232, 171);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox2.TabIndex = 4;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1073, 450);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.pictureBox1);
@@ -173,6 +189,7 @@
             this.menuStrip1.PerformLayout();
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -194,6 +211,7 @@
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel DuongDanAnh;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 

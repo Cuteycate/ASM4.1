@@ -8,3 +8,13 @@ C:\Users\Admin\Desktop\New folder\Nhom11_ASM4.1\obj\Debug\Nhom11_ASM4.1.csproj.G
 C:\Users\Admin\Desktop\New folder\Nhom11_ASM4.1\obj\Debug\Nhom11_ASM4.1.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Desktop\New folder\Nhom11_ASM4.1\obj\Debug\Nhom11_ASM4.1.exe
 C:\Users\Admin\Desktop\New folder\Nhom11_ASM4.1\obj\Debug\Nhom11_ASM4.1.pdb
+D:\c#\ASM4.1\Nhom11_ASM4.1\bin\Debug\Nhom11_ASM4.1.exe.config
+D:\c#\ASM4.1\Nhom11_ASM4.1\bin\Debug\Nhom11_ASM4.1.exe
+D:\c#\ASM4.1\Nhom11_ASM4.1\bin\Debug\Nhom11_ASM4.1.pdb
+D:\c#\ASM4.1\Nhom11_ASM4.1\obj\Debug\Nhom11_ASM4.1.csproj.AssemblyReference.cache
+D:\c#\ASM4.1\Nhom11_ASM4.1\obj\Debug\Nhom11_ASM4._1.Form1.resources
+D:\c#\ASM4.1\Nhom11_ASM4.1\obj\Debug\Nhom11_ASM4._1.Properties.Resources.resources
+D:\c#\ASM4.1\Nhom11_ASM4.1\obj\Debug\Nhom11_ASM4.1.csproj.GenerateResource.cache
+D:\c#\ASM4.1\Nhom11_ASM4.1\obj\Debug\Nhom11_ASM4.1.csproj.CoreCompileInputs.cache
+D:\c#\ASM4.1\Nhom11_ASM4.1\obj\Debug\Nhom11_ASM4.1.exe
+D:\c#\ASM4.1\Nhom11_ASM4.1\obj\Debug\Nhom11_ASM4.1.pdb
